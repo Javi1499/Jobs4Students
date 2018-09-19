@@ -4,7 +4,7 @@
 
 Utilizando HTML y CSS codifique el formulario que se muestra en la siguiente imagen:
 
-![formulario](imgs/img1.png)
+![formulario](imgs/img.png)
 
 ## Calificación
 
