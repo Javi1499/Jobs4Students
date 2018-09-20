@@ -1,0 +1,63 @@
+.celda {   
+    font-family: 'Noto Serif JP', sans-serif;
+    background-color:rgb(219, 219, 219);
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 6px;
+    text-align: center;
+    border: 0ch;
+
+}
+
+#lada {
+    width: 50px;
+    font-family: 'Noto Serif JP', sans-serif;
+    background-color:rgb(219, 219, 219);
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 6px;
+    text-align: center;
+    border: 0ch;
+}
+#numero{
+    width: 150px;
+    font-family: 'Noto Serif JP', sans-serif;
+    background-color:rgb(219, 219, 219);
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;  
+    border: 0ch;
+}
+#formulario {
+    width: 250px;
+    height: 520px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+    
+}
+
+#datos {
+    background-color: rgb(129, 129, 129);
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    height: 33px;
+    text-align: center;
+    font-size: 14px;
+    border: black;
+    border: 100px;
+} 
+
+#submit {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    margin: 25px;
+
+}
+#correo:hover {
+    background-color: rgba(233, 51, 51, 0.658);
+}
