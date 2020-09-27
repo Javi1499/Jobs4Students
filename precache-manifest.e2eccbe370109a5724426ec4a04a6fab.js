@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "148d5aa5c702b6b5f4b8c9967d96c062",
+    "revision": "0d7c28e0f0722bf94445b53c513d8176",
     "url": "/Jobs4Students/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Jobs4Students/static/css/2.2f73783b.chunk.css"
   },
   {
-    "revision": "bde3eac6e6e63888c3cc",
+    "revision": "28e3dddd0f7b9a1ab71c",
     "url": "/Jobs4Students/static/css/main.2bf879a0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Jobs4Students/static/js/2.b1b8af22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bde3eac6e6e63888c3cc",
-    "url": "/Jobs4Students/static/js/main.230b6609.chunk.js"
+    "revision": "28e3dddd0f7b9a1ab71c",
+    "url": "/Jobs4Students/static/js/main.536a7d02.chunk.js"
   },
   {
     "revision": "c30ca0e4f19d6111e2c6",

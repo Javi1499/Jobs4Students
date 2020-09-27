@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Jobs4Students/static/css/main.2bf879a0.chunk.css",
-    "main.js": "/Jobs4Students/static/js/main.230b6609.chunk.js",
-    "main.js.map": "/Jobs4Students/static/js/main.230b6609.chunk.js.map",
+    "main.js": "/Jobs4Students/static/js/main.536a7d02.chunk.js",
+    "main.js.map": "/Jobs4Students/static/js/main.536a7d02.chunk.js.map",
     "runtime-main.js": "/Jobs4Students/static/js/runtime-main.f0cd2a7f.js",
     "runtime-main.js.map": "/Jobs4Students/static/js/runtime-main.f0cd2a7f.js.map",
     "static/css/2.2f73783b.chunk.css": "/Jobs4Students/static/css/2.2f73783b.chunk.css",
     "static/js/2.b1b8af22.chunk.js": "/Jobs4Students/static/js/2.b1b8af22.chunk.js",
     "static/js/2.b1b8af22.chunk.js.map": "/Jobs4Students/static/js/2.b1b8af22.chunk.js.map",
     "index.html": "/Jobs4Students/index.html",
-    "precache-manifest.40d0ea6a9460e4e0f4250aeefb0208ca.js": "/Jobs4Students/precache-manifest.40d0ea6a9460e4e0f4250aeefb0208ca.js",
+    "precache-manifest.e2eccbe370109a5724426ec4a04a6fab.js": "/Jobs4Students/precache-manifest.e2eccbe370109a5724426ec4a04a6fab.js",
     "service-worker.js": "/Jobs4Students/service-worker.js",
     "static/css/2.2f73783b.chunk.css.map": "/Jobs4Students/static/css/2.2f73783b.chunk.css.map",
     "static/css/main.2bf879a0.chunk.css.map": "/Jobs4Students/static/css/main.2bf879a0.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2f73783b.chunk.css",
     "static/js/2.b1b8af22.chunk.js",
     "static/css/main.2bf879a0.chunk.css",
-    "static/js/main.230b6609.chunk.js"
+    "static/js/main.536a7d02.chunk.js"
   ]
 }
