@@ -23,20 +23,20 @@ export default class Jobs extends Component {
         return result
     }
     getJobs = async () => {
-        const resJobs = await axios.get('http://localhost:3001/api/jobs');
+        const resJobs = await axios.get('https://backendj4s.herokuapp.com/api/jobs');
         this.setState({
             jobs: resJobs.data
         })
     }
     deleteJob = async (id) => {
-        await axios.delete('http://localhost:3001/api/jobs/' + id);
+        await axios.delete('https://backendj4s.herokuapp.com/api/jobs/' + id);
         this.getJobs();
     }
     async componentDidMount() {
         this.getJobs();
     }
     doPostulation = async (idJob) => {
-        const res = await axios.post('http://localhost:3001/api/postulacion/' + idJob, userData);
+        const res = await axios.post('https://backendj4s.herokuapp.com/api/postulacion/' + idJob, userData);
         if (res.data.res === 0) {
             alert('Ýa te postulaste anteeriormente a este empleo')
         } else{

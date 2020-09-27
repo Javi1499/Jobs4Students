@@ -30,7 +30,7 @@ export default class SingUp extends Component {
             age: this.state.age,
             schoolName: this.state.schoolName
         }
-        const res = await axios.post('http://localhost:3001/api/users', newUser);
+        const res = await axios.post('https://backendj4s.herokuapp.com/api/users', newUser);
 
         if (res.status === 200) {
             const validation = res.data;

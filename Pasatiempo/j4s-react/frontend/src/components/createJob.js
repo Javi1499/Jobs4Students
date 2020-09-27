@@ -34,7 +34,7 @@ console.log(edit)
 
 
         if (this.props.match.params.id) {
-            const resJob = await axios.get('http://localhost:3001/api/jobs/' + this.props.match.params.id);
+            const resJob = await axios.get('https://backendj4s.herokuapp.com/api/jobs/' + this.props.match.params.id);
 
             this.setState({
                 title: resJob.data.title,
@@ -64,14 +64,14 @@ console.log(edit)
         }
         if (this.state.edit === false) {
 
-            await axios.post('http://localhost:3001/api/jobs/', newJob);
+            await axios.post('https://backendj4s.herokuapp.com/api/jobs/', newJob);
 
 
 
         } else {
 
 
-            await axios.put('http://localhost:3001/api/jobs/' + this.props.match.params.id, newJob);
+            await axios.put('https://backendj4s.herokuapp.com/api/jobs/' + this.props.match.params.id, newJob);
         }
         this.props.history.push('/my-jobs/' + userId)
 

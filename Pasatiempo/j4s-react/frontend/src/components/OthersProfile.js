@@ -17,7 +17,7 @@ export default class OthersProfile extends Component {
     }
 
     getData = async () => {
-        const res = await axios.get('http://localhost:3001/api/users/' + this.props.match.params.userId );
+        const res = await axios.get('https://backendj4s.herokuapp.com/api/users/' + this.props.match.params.userId );
 
         console.log(res)
         this.setState({

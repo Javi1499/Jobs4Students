@@ -26,17 +26,17 @@ function App() {
         <Navigation />
 
         <div>
-          <Route path='/signin' component={SignIn} />
-          <Route path='/signup' component={SignUp} />
-          <Route exact path='/' component={Home} />
-          <PrivateRoute exact path='/postulations/:id' component={Postulations}/>
-          <PrivateRoute exact path='/jobs' component={Jobs} />
-          <PrivateRoute exact path='/my-jobs/:id' component={MyJobs} />
-          <PrivateRoute exact path='/profile' component={Profile} />
-          <PrivateRoute path='/create-job' component={createJob} />
-          <PrivateRoute path='/edit/:id' component={createJob} />
-          <PrivateRoute path="/my-postulation/:id" component={MyPostulation}/>
-          <PrivateRoute path='/userProfile/:userId' component={OthersProfile}/>
+          <Route path='/Jobs4Students/signin' component={SignIn} />
+          <Route path='/Jobs4Students/signup' component={SignUp} />
+          <Route exact path='/Jobs4Students/' component={Home} />
+          <PrivateRoute exact path='/Jobs4Students/postulations/:id' component={Postulations}/>
+          <PrivateRoute exact path='/Jobs4Students/jobs' component={Jobs} />
+          <PrivateRoute exact path='/Jobs4Students/my-jobs/:id' component={MyJobs} />
+          <PrivateRoute exact path='/Jobs4Students/profile' component={Profile} />
+          <PrivateRoute path='/Jobs4Students/create-job' component={createJob} />
+          <PrivateRoute path='/Jobs4Students/edit/:id' component={createJob} />
+          <PrivateRoute path="/Jobs4Students/my-postulation/:id" component={MyPostulation}/>
+          <PrivateRoute path='/Jobs4Students/userProfile/:userId' component={OthersProfile}/>
         </div>
       </Router>
     </div>

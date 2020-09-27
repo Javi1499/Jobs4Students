@@ -15,8 +15,8 @@ export default class Postulations extends Component {
     }
 
     getData = async () => {
-        const job = await axios.get('http://localhost:3001/api/jobs/' + this.props.match.params.id);
-        const postulationsData = await axios.get('http://localhost:3001/api/postulacion/' + this.props.match.params.id)
+        const job = await axios.get('https://backendj4s.herokuapp.com/api/jobs/' + this.props.match.params.id);
+        const postulationsData = await axios.get('https://backendj4s.herokuapp.com/api/postulacion/' + this.props.match.params.id)
 
 
         this.setState({
@@ -28,13 +28,13 @@ export default class Postulations extends Component {
     }
 
     deletePostulation = async (id) => {
-        await axios.delete('http://localhost:3001/api/postulacion/' + id);
+        await axios.delete('https://backendj4s.herokuapp.com/api/postulacion/' + id);
         this.getData();
     }
 
     selectApplicant = async (idPostulation, idJob) => {
 
-        const res = await axios.put('http://localhost:3001/api/postulacion/', { idJob, idPostulation });
+        const res = await axios.put('https://backendj4s.herokuapp.com/api/postulacion/', { idJob, idPostulation });
         console.log(res.data.res)
         if (res.data.res === 0) {
 

@@ -23,7 +23,7 @@ export default class SignIn extends Component {
             userName: this.state.userName,
             password: this.state.password
         }
-        const res = await axios.post('http://localhost:3001/api/users/signin', credentials);
+        const res = await axios.post('https://backendj4s.herokuapp.com/api/users/signin', credentials);
         if (res.data.length > 0) {
             const validation = res.data[0];
             cookies.set('userId', validation._id, { path: '/', sameSite: 'lax', secure: true });

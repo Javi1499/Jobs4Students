@@ -10,7 +10,7 @@ this.getData()
     }
     
 getData= async()=>{
-const postulationsData =  await axios.get('http://localhost:3001/api/postulacion/my_postulation/'+ this.props.match.params.id);
+const postulationsData =  await axios.get('https://backendj4s.herokuapp.com/api/postulacion/my_postulation/'+ this.props.match.params.id);
 
 this.setState({
 myPostulations: postulationsData.data

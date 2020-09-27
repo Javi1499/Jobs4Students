@@ -20,15 +20,15 @@ export default class MyJobs extends Component {
     }
 
     getJobs = async () => {
-        const resJobs = await axios.get('http://localhost:3001/api/jobs/myjobs/'+ this.props.match.params.id);
+        const resJobs = await axios.get('https://backendj4s.herokuapp.com/api/jobs/myjobs/'+ this.props.match.params.id);
         this.setState({
             jobs: resJobs.data
         })
     }
     deleteJob = async (id) => {
 
-        await axios.delete('http://localhost:3001/api/jobs/' + id);
-        await axios.delete('http://localhost:3001/api/postulacion/job/'+id)
+        await axios.delete('https://backendj4s.herokuapp.com/api/jobs/' + id);
+        await axios.delete('https://backendj4s.herokuapp.com/api/postulacion/job/'+id)
 
         this.getJobs();
     }
