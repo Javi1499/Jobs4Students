@@ -68,7 +68,7 @@ export default class Postulations extends Component {
                             {this.state.postulations.map(postulation =>
 
                                 <tr className='table-light' key={postulation._id}>
-                                    <th scope="row"><Link to={'/userProfile/' + postulation.idApplicant}>{(this.state.postulations.indexOf(postulation) + 1)}</Link></th>
+                                    <th scope="row"><Link to={'/Jobs4Students/userProfile/' + postulation.idApplicant}>{(this.state.postulations.indexOf(postulation) + 1)}</Link></th>
                                     <td>{postulation.Date}</td>
                                     <td>{postulation.status}</td>
                                     <td>

@@ -58,8 +58,8 @@ export default class MyJobs extends Component {
                             </div>
                             <div className=" row pb-3 m-auto">
                                 <button className="btn btn-danger mr-2" onClick={() => { this.deleteJob(job._id) }}>Delete</button>
-                                <Link className="btn btn-secondary fat" to={'/edit/' + job._id}>Edit</Link>
-                                <Link className="btn btn-info fat ml-3" to={'/postulations/' + job._id}>View postulations</Link>
+                                <Link className="btn btn-secondary fat" to={'/Jobs4Students/edit/' + job._id}>Edit</Link>
+                                <Link className="btn btn-info fat ml-3" to={'/Jobs4Students/postulations/' + job._id}>View postulations</Link>
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,7 @@ export default class SingUp extends Component {
     componentDidMount() {
 
         if (cookies.get('isLogged')) {
-            this.props.history.push('/jobs');
+            this.props.history.push('/Jobs4Students/jobs');
         }
     }
 

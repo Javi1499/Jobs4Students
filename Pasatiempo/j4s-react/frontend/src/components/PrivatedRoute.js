@@ -8,7 +8,7 @@ const PrivateRoute = ({ component : Component,...rest }) => (
         {...rest}
         render={props => cookies.get('isLogged')? (
             <Component {...props} />)
-            : (<Redirect to="/signin" />)
+            : (<Redirect to="/Jobs4Students/signin" />)
         }
     />
 );

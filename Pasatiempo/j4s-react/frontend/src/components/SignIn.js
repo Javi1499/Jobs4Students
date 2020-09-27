@@ -29,7 +29,7 @@ export default class SignIn extends Component {
             cookies.set('userId', validation._id, { path: '/', sameSite: 'lax', secure: true });
             cookies.set('isLogged', true, { path: '/', sameSite: "lax", secure: true });
             cookies.set('userName', validation.username,{ path: '/', sameSite: "lax", secure: true }) ;
-            window.location.href = '/jobs';
+            window.location.href = '/Jobs4Students/jobs';
         } else {
             alert('Incorrecto');
         }

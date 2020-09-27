@@ -7,7 +7,7 @@ export default class LogOut extends Component {
         e.preventDefault();
         cookies.remove('userId');
         cookies.remove('isLogged')
-        window.location.href = '/signin'
+        window.location.href = '/Jobs4Students/signin'
     }
     render() {
         if (cookies.get('isLogged')) {
@@ -17,8 +17,8 @@ export default class LogOut extends Component {
         }
         return (
             <div className='row'>
-                <Link className="nav-link" aria-disabled="true" to='/signin'>Login</Link>
-                <Link className="nav-link" aria-disabled="true" to='/signup'>Sign Up</Link>
+                <Link className="nav-link" aria-disabled="true" to='/Jobs4Students/signin'>Login</Link>
+                <Link className="nav-link" aria-disabled="true" to='/Jobs4Students/signup'>Sign Up</Link>
             </div>
         )
     }
