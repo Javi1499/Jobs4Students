@@ -2,7 +2,7 @@
   "name": "j4s-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Javi1499.github.io",
+  "homepage": "http://Javi1499.github.io/Jobs4Students",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
